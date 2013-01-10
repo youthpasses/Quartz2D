@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C8A132E167AE15600A4F3B4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8A132D167AE15600A4F3B4 /* logo.png */; };
+		9CA5951B16901683001596C3 /* myCALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA5951A16901683001596C3 /* myCALayer.m */; };
+		9CA5951E16902C93001596C3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA5951D16902C93001596C3 /* CoreImage.framework */; };
+		9CABCF60167FFA82001D9CFD /* tiger2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CABCF5E167FFA82001D9CFD /* tiger2.png */; };
+		9CABCF61167FFA82001D9CFD /* tiger1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CABCF5F167FFA82001D9CFD /* tiger1.png */; };
+		9CADFD2C167F094000316126 /* tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CADFD2B167F094000316126 /* tiger.png */; };
 		9CCA2ABD167980E600BC9454 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCA2ABC167980E600BC9454 /* UIKit.framework */; };
 		9CCA2ABF167980E600BC9454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCA2ABE167980E600BC9454 /* Foundation.framework */; };
 		9CCA2AC1167980E600BC9454 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCA2AC0167980E600BC9454 /* CoreGraphics.framework */; };
@@ -18,9 +24,18 @@
 		9CCA2AD3167980E700BC9454 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA2AD2167980E700BC9454 /* Default-568h@2x.png */; };
 		9CCA2AD6167980E700BC9454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA2AD5167980E700BC9454 /* ViewController.m */; };
 		9CCA2AD9167980E700BC9454 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA2AD7167980E700BC9454 /* ViewController.xib */; };
+		9CCA2AE31679843300BC9454 /* MyQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA2AE21679843300BC9454 /* MyQuartzView.m */; };
+		9CCA2AE4167984E400BC9454 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCA2ADF1679813500BC9454 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C8A132D167AE15600A4F3B4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		9CA5951916901683001596C3 /* myCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCALayer.h; sourceTree = "<group>"; };
+		9CA5951A16901683001596C3 /* myCALayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCALayer.m; sourceTree = "<group>"; };
+		9CA5951D16902C93001596C3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9CABCF5E167FFA82001D9CFD /* tiger2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiger2.png; sourceTree = "<group>"; };
+		9CABCF5F167FFA82001D9CFD /* tiger1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiger1.png; sourceTree = "<group>"; };
+		9CADFD2B167F094000316126 /* tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiger.png; sourceTree = "<group>"; };
 		9CCA2AB8167980E600BC9454 /* Quartz2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCA2ABC167980E600BC9454 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9CCA2ABE167980E600BC9454 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +52,9 @@
 		9CCA2AD4167980E700BC9454 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9CCA2AD5167980E700BC9454 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9CCA2AD8167980E700BC9454 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9CCA2ADF1679813500BC9454 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9CCA2AE11679843300BC9454 /* MyQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuartzView.h; sourceTree = "<group>"; };
+		9CCA2AE21679843300BC9454 /* MyQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuartzView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +62,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA5951E16902C93001596C3 /* CoreImage.framework in Frameworks */,
+				9CCA2AE4167984E400BC9454 /* QuartzCore.framework in Frameworks */,
+				9CCA2AC1167980E600BC9454 /* CoreGraphics.framework in Frameworks */,
 				9CCA2ABD167980E600BC9454 /* UIKit.framework in Frameworks */,
 				9CCA2ABF167980E600BC9454 /* Foundation.framework in Frameworks */,
-				9CCA2AC1167980E600BC9454 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +76,8 @@
 		9CCA2AAD167980E600BC9454 = {
 			isa = PBXGroup;
 			children = (
+				9CA5951D16902C93001596C3 /* CoreImage.framework */,
+				9CCA2ADF1679813500BC9454 /* QuartzCore.framework */,
 				9CCA2AC2167980E600BC9454 /* Quartz2D */,
 				9CCA2ABB167980E600BC9454 /* Frameworks */,
 				9CCA2AB9167980E600BC9454 /* Products */,
@@ -87,7 +109,15 @@
 				9CCA2ACC167980E600BC9454 /* AppDelegate.m */,
 				9CCA2AD4167980E700BC9454 /* ViewController.h */,
 				9CCA2AD5167980E700BC9454 /* ViewController.m */,
+				9CCA2AE11679843300BC9454 /* MyQuartzView.h */,
+				9CCA2AE21679843300BC9454 /* MyQuartzView.m */,
+				9CA5951916901683001596C3 /* myCALayer.h */,
+				9CA5951A16901683001596C3 /* myCALayer.m */,
 				9CCA2AD7167980E700BC9454 /* ViewController.xib */,
+				9C8A132D167AE15600A4F3B4 /* logo.png */,
+				9CADFD2B167F094000316126 /* tiger.png */,
+				9CABCF5E167FFA82001D9CFD /* tiger2.png */,
+				9CABCF5F167FFA82001D9CFD /* tiger1.png */,
 				9CCA2AC3167980E600BC9454 /* Supporting Files */,
 			);
 			path = Quartz2D;
@@ -163,6 +193,10 @@
 				9CCA2AD1167980E700BC9454 /* Default@2x.png in Resources */,
 				9CCA2AD3167980E700BC9454 /* Default-568h@2x.png in Resources */,
 				9CCA2AD9167980E700BC9454 /* ViewController.xib in Resources */,
+				9C8A132E167AE15600A4F3B4 /* logo.png in Resources */,
+				9CADFD2C167F094000316126 /* tiger.png in Resources */,
+				9CABCF60167FFA82001D9CFD /* tiger2.png in Resources */,
+				9CABCF61167FFA82001D9CFD /* tiger1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +210,8 @@
 				9CCA2AC9167980E600BC9454 /* main.m in Sources */,
 				9CCA2ACD167980E600BC9454 /* AppDelegate.m in Sources */,
 				9CCA2AD6167980E700BC9454 /* ViewController.m in Sources */,
+				9CCA2AE31679843300BC9454 /* MyQuartzView.m in Sources */,
+				9CA5951B16901683001596C3 /* myCALayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +291,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quartz2D/Quartz2D-Prefix.pch";
 				INFOPLIST_FILE = "Quartz2D/Quartz2D-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,7 +304,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quartz2D/Quartz2D-Prefix.pch";
 				INFOPLIST_FILE = "Quartz2D/Quartz2D-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -290,6 +330,7 @@
 				9CCA2ADE167980E700BC9454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyQuartzView.h
 //  Quartz2D
 //
 //  Created by makai on 12-12-13.
@@ -7,15 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
 #import <CoreGraphics/CoreGraphics.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
+@interface MyQuartzView : UIView
 {
-    CALayer *layer;
-    size_t width;
-    size_t height;
-    UIImage *image;
+    CGContextRef whiteBoardContext;
+    CGLayerRef whiteBoardLayer;
 }
 
 @end
