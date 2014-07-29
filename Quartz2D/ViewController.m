@@ -41,6 +41,9 @@
     [button setTitle:@"position" forState:UIControlStateNormal];
     [self.view addSubview:button];
     [button addTarget:self action:@selector(setPosition) forControlEvents:UIControlEventTouchDown];
+    
+    
+    NSLog(@"Quartz2D");
 
 }
 
